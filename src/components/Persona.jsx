@@ -1,5 +1,5 @@
 import React from 'react';
-
+import personaImage from "../../public/persona.jpeg"
 const Persona = () => {
   return (
     <div className="p-4 border rounded-lg shadow-md bg-teal-100">
@@ -17,7 +17,7 @@ const Persona = () => {
         </p><br/>
 
 
-        <img src='/persona.jpeg'></img>
+        <img src={ personaImage }></img>
         </div>
       <div className="placeholder-chart border-dashed border-2 border-gray-300 h-48 flex items-center justify-center">
         <span className="text-gray-500 p-2">In the back of her mind, Shakira couldn't shake the image of the curve she’d seen in the news recently—one showing how income inequality had widened over the years. The top 1% was growing wealthier, while families like hers were left struggling. </span>
