@@ -2,7 +2,7 @@ import React from "react";
 import HomePage from "./components/HomePage";
 import Persona from "./components/Persona";
 import DollarWeakening from "./components/DollarWeakening";
-import CostIncrease from "./CostIncrease";
+import CostIncrease from "./components/CostIncrease";
 
 function App() {
   return (

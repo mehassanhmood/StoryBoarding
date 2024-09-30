@@ -24,7 +24,7 @@ const CostIncrease = () => {
       Shakira had gone to school without her parents ever talking about student loans or inflation. 
       </p><br />
       <img 
-        src={ Tutinq }
+        src={ Tution }
         className="max-w-full h-auto rounded-md mb-4" 
       />
     </div>
