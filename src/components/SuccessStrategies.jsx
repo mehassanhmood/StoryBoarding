@@ -13,7 +13,7 @@ const SuccessStrategies = () => {
         <p> <strong>The Answer? </strong> . Her parents hadn't experienced the same pressures of inflation or the gap between wages and living costs that seemed to define life for her generation.</p>
         <img
           className="max-w-full h-full object-cover rotate-left"
-          src={inequalitImage}
+          src={CPI}
           alt="Income Inequality"
         />
     </div>
