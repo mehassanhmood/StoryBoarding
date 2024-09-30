@@ -2,6 +2,7 @@ import React from "react";
 import HomePage from "./components/HomePage";
 import Persona from "./components/Persona";
 import DollarWeakening from "./components/DollarWeakening";
+import CostIncrease from "./CostIncrease";
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       </div>
       <div className="mt-4 w-full max-w-3xl">
         <DollarWeakening />
+      </div>
+      <div className="mt-4 w-full max-w-3xl">
+        <CostIncrease />
       </div>
     </div>
   );
