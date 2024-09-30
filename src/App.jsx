@@ -3,6 +3,7 @@ import HomePage from "./components/HomePage";
 import Persona from "./components/Persona";
 import DollarWeakening from "./components/DollarWeakening";
 import CostIncrease from "./components/CostIncrease";
+import SuccessStrategies from "./components/SuccessStrategies";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       </div>
       <div className="mt-4 w-full max-w-3xl">
         <CostIncrease />
+      </div>
+      <div className="mt-4 w-full max-w-3xl">
+        <SuccessStrategies />
       </div>
     </div>
   );
