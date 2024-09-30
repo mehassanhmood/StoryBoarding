@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <section className="flex flex-col justify-center items-center bg-indigo-700 shadow-lg shadow-indigo-500/40 p-8">
+    <section className="flex flex-col justify-center items-center bg-indigo-300 shadow-lg shadow-indigo-500/40 p-8">
       <div className="max-w-2xl text-center">
         <h1 className="text-4xl font-bold text-gray-800 mb-6">
           Inflation, Income, Inequality
