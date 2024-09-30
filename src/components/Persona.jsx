@@ -17,11 +17,11 @@ const Persona = () => {
         </p><br/>
 
 
-        <img src='./assets/persona.jpeg'></img>
+        <img src='../assets/persona.jpeg'></img>
         </div>
       <div className="placeholder-chart border-dashed border-2 border-gray-300 h-48 flex items-center justify-center">
         <span className="text-gray-500 p-2">In the back of her mind, Shakira couldn't shake the image of the curve she’d seen in the news recently—one showing how income inequality had widened over the years. The top 1% was growing wealthier, while families like hers were left struggling. </span>
-        <img className="max-w-full h-full object-cover rotate-left " src='./assets/income-inequality.png'></img>
+        <img className="max-w-full h-full object-cover rotate-left " src='../assets/income-inequality.png'></img>
       </div>
     </div>
   );
