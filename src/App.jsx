@@ -3,8 +3,8 @@ import HomePage from "./components/HomePage";
 import Persona from "./components/Persona";
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
-      <HomePage></HomePage>
+    <div className="flex justify-center items-center h-screen bg-teal-300">
+      <HomePage /> 
       <Persona />
 
     </div>
