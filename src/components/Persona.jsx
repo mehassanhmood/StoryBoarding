@@ -1,5 +1,6 @@
 import React from 'react';
 import personaImage from "../../public/persona.jpeg"
+import inequalitImage from "../../public/income-inequality.png"
 const Persona = () => {
   return (
     <div className="p-4 border rounded-lg shadow-md bg-teal-100">
@@ -21,7 +22,7 @@ const Persona = () => {
         </div>
       <div className="placeholder-chart border-dashed border-2 border-gray-300 h-48 flex items-center justify-center">
         <span className="text-gray-500 p-2">In the back of her mind, Shakira couldn't shake the image of the curve she’d seen in the news recently—one showing how income inequality had widened over the years. The top 1% was growing wealthier, while families like hers were left struggling. </span>
-        <img className="max-w-full h-full object-cover rotate-left " src='/income-inequality.png'></img>
+        <img className="max-w-full h-full object-cover rotate-left " src={inequalitImage}></img>
       </div>
     </div>
   );
