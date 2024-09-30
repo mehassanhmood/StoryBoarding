@@ -1,9 +1,9 @@
 import React from "react";
-import Homepage from "./components/Homepage";
+import HomePage from "./components/HomePage";
 function App() {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
-      <HomePage/>
+      <HomePage></HomePage>
 
     </div>
   );
