@@ -1,13 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 const HomePage = () => {
   return (
-    <div>
-      <h1 className='text-xxl'>Inflation, Income, Inequality.</h1>
-      <p>The impact and gradual increase in the evaporating buying power of a dollar.</p>
-      <p>How to navigate through this problem?</p>
-    </div>
-  )
-}
+    <section className="min-h-screen flex flex-col justify-center items-center bg-gray-100 p-8">
+      <div className="max-w-2xl text-center">
+        <h1 className="text-4xl font-bold text-gray-800 mb-6">
+          Inflation, Income, Inequality
+        </h1>
+        <p className="text-lg text-gray-600 mb-4">
+          Understanding the diminishing value of a dollar and its impact on purchasing power.
+        </p>
+        <p className="text-lg text-gray-600 mb-8">
+          Explore strategies for navigating these challenges in today's economic climate.
+        </p>
+      </div>
+    </section>
+  );
+};
 
-export default HomePage
+export default HomePage;
