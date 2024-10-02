@@ -5,7 +5,7 @@ import inflation from "../../public/inflation_pic.jpg";
 
 const DollarWeakening = () => {
   return (
-    <div className="p-4 border rounded-lg shadow-lg shadow-teal-100 hover:shadow-teal-700 bg-teal-500 flex">
+    <div className="p-4 border rounded-lg shadow-lg shadow-teal-100 hover:shadow-teal-600 bg-teal-500 flex">
       <div className="flex-1 text-left p-4">
         <h3 className="text-lg font-semibold">Impact of Dollar Weakening</h3>
         <p className='text-xl'>
