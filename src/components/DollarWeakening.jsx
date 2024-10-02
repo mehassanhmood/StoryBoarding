@@ -18,11 +18,7 @@ const DollarWeakening = () => {
             className="max-w-xs h-auto rounded-md mb-2 p-2" 
             alt="Inflation"
           />
-          <img 
-            src={weakingingImage1990}
-            className="max-w-xs h-auto rounded-md p-2" 
-            alt="Dollar Weakening in 1990"
-          />
+
           </div>
       </div>
       <div className="flex-shrink-0 flex flex-col items-end ml-4">
@@ -31,6 +27,11 @@ const DollarWeakening = () => {
           className="max-w-xs h-auto rounded-md mb-2" 
           alt="Dollar Weakening"
         />
+          <img 
+            src={weakingingImage1990}
+            className="max-w-xs h-auto rounded-md p-2" 
+            alt="Dollar Weakening in 1990"
+          />
       </div>
     </div>
   );
