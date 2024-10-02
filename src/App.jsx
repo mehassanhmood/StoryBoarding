@@ -13,27 +13,27 @@ function App() {
       <div className="py-6 px-2 border rounded-lg mx-24">
       <HomePage />
 
-      <div className="py-6 px-2 border rounded-lg">
+      <div className="py-6 px-4 border rounded-lg">
         <Persona />
       </div>
       
-      <div className="py-6 px-2 border rounded-lg">
+      <div className="py-6 px-4 border rounded-lg">
         <DollarWeakening />
       </div>
       
-      <div className="py-6 px-2 border rounded-lg">
+      <div className="py-6 px-4 border rounded-lg">
         <CostIncrease />
       </div>
       
-      <div className="py-6 px-2 border rounded-lg">
+      <div className="py-6 px-4 border rounded-lg">
         <SuccessStrategies />
       </div>
       
-      <div className="py-6 px-2 border rounded-lg">
+      <div className="py-6 px-4 border rounded-lg">
         <SPReturns />
       </div>
       
-      <div className="py-6 px-2 border rounded-lg">
+      <div className="py-6 px-4 border rounded-lg">
         <AdaptedPersona />
       </div>
     </div>
