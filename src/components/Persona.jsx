@@ -61,11 +61,11 @@ const Persona = () => {
           ref={imageRef}
           src={personaImage}
           alt="Shakira and her family"
-          className={`w-full h-auto rounded-lg mt-4 transition-opacity duration-900 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+          className={`w-full h-auto rounded-lg mt-4 transition-opacity duration-100 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
         />
       </div>
       <div className="placeholder-chart border-dashed border-2 border-gray-300 h-48 flex items-center justify-center mb-4">
-        <span className="text-gray-500 p-2">
+        <span className="text-gray-900 p-2">
           In the back of her mind, Shakira couldn't shake the image of the
           curve she’d seen in the news recently—one showing how income
           inequality had widened over the years. The top 1% was growing
