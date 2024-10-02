@@ -21,7 +21,7 @@ const DollarWeakening = () => {
 
           </div>
       </div>
-      <div className="inline flex-shrink-0 flex flex-col items-end mx-4">
+      <div className="display-inline flex-shrink-0 flex flex-col items-end mx-4">
         <img 
           src={weakingingImage} 
           className="max-w-xs h-auto rounded-md mb-2" 
