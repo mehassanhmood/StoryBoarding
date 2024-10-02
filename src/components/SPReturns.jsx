@@ -5,7 +5,7 @@ import investmentImage from "../../public/investment_pic.png"; // Placeholder im
 
 const SPReturns = () => {
   return (
-    <div className="p-4 border rounded-lg shadow-md flex">
+    <div className="p-4 border rounded-lg shadow-lg  shadow-teal-100 hover:shadow-teal-600 bg-teal-500  flex">
       <div className="flex-1 text-left p-4">
         <div className="mb-4">
           <p className='text-xl' ><b>Beating the odds:</b></p>

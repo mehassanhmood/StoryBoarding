@@ -28,12 +28,12 @@ function App() {
       <div className="py-6 px-2 border rounded-lg">
         <SuccessStrategies />
       </div>
-      {/* <div className="mt-4 w-full max-w-3xl"> */}
-      <div>
+      
+      <div className="py-6 px-2 border rounded-lg">
         <SPReturns />
       </div>
-      {/* <div className="mt-4 w-full max-w-3xl"> */}
-      <div>
+      
+      <div className="py-6 px-2 border rounded-lg">
         <AdaptedPersona />
       </div>
     </div>
