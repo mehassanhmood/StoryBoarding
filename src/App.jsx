@@ -16,19 +16,24 @@ function App() {
       <div>
         <Persona />
       </div>
-      <div className="mt-4 w-full max-w-3xl">
+      {/* <div className="mt-4 w-full max-w-3xl"> */}
+      <div>
         <DollarWeakening />
       </div>
-      <div className="mt-4 w-full max-w-3xl">
+      {/* <div className="mt-4 w-full max-w-3xl"> */}
+      <div>
         <CostIncrease />
       </div>
-      <div className="mt-4 w-full max-w-3xl">
+      {/* <div className="mt-4 w-full max-w-3xl"> */}
+      <div>
         <SuccessStrategies />
       </div>
-      <div className="mt-4 w-full max-w-3xl">
+      {/* <div className="mt-4 w-full max-w-3xl"> */}
+      <div>
         <SPReturns />
       </div>
-      <div className="mt-4 w-full max-w-3xl">
+      {/* <div className="mt-4 w-full max-w-3xl"> */}
+      <div>
         <AdaptedPersona />
       </div>
     </div>
