@@ -10,7 +10,7 @@ import AdaptedPersona from "./components/AdaptedPersona";
 function App() {
   return (
     
-      <div className="py-6 px-2 rounded-lg">
+      <div className="py-6 px-2 border rounded-lg">
       <HomePage />
       {/* <div className="mt-4 w-full max-w-3xl"> */}
       <div>
