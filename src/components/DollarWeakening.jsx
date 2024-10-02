@@ -12,7 +12,7 @@ const DollarWeakening = () => {
           And then, there was the glaring reality, the same dollar that bought her parents groceries in the 1990s now barely covered half of what it used to. It struck her that what used to be $1 back then now felt like $3 today.
         </p>
         <p className='text-xl'>The dollar had depreciated over time, leaving her and Steve with less buying power, even as prices for basic goods continued to climb.</p>
-          <div className='flex max-w-xs'>
+          <div className='flex max-w-xs p-4'>
           <img 
             src={inflation} 
             className="max-w-xs h-auto rounded-md mb-2" 
