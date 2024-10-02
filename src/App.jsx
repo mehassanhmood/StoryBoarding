@@ -9,8 +9,8 @@ import AdaptedPersona from "./components/AdaptedPersona";
 
 function App() {
   return (
-    // <div className="flex flex-col justify-center items-center min-h-screen bg-teal-300 p-4">
-      <div>
+    
+      <div className="py-6 px-2">
       <HomePage />
       {/* <div className="mt-4 w-full max-w-3xl"> */}
       <div>
