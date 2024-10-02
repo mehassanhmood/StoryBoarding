@@ -42,8 +42,8 @@ const Persona = () => {
           were strewn across the table, reminders of the tightrope she and her
           husband, Steve, walked every month.
         </p>
-        <p className="mt-2">Their goals:</p>
-        <ul className="list-disc list-inside mb-2">
+        <p className="text-xl mt-2">Their goals:</p>
+        <ul className="text-xl list-disc list-inside mb-2">
           <li className="flex items-center justify-center"> {/* Added justify-center class */}
             <FaHome className="mr-2 text-teal-600" /> Home
           </li>
