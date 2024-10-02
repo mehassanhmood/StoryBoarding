@@ -15,7 +15,7 @@ const DollarWeakening = () => {
           <div className='flex max-w-xs p-4'>
           <img 
             src={inflation} 
-            className="max-w-xs h-auto rounded-md mb-2 p-2" 
+            className="max-w-xs h-auto rounded-md mb-2 p-2 transition duration-700 opacity-100" 
             alt="Inflation"
           />
 

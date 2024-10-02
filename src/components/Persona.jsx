@@ -61,7 +61,7 @@ const Persona = () => {
           ref={imageRef}
           src={personaImage}
           alt="Shakira and her family"
-          className={`w-full h-auto rounded-lg mt-4 transition-opacity duration-100 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+          className={`w-full h-auto rounded-lg mt-4 transition-opacity duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
         />
       </div>
       <div className=" border-2 border-gray-300 h-48 flex items-center justify-center mb-4">
