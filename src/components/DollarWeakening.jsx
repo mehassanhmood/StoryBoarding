@@ -15,12 +15,12 @@ const DollarWeakening = () => {
           <div className='flex max-w-xs p-4'>
           <img 
             src={inflation} 
-            className="max-w-xs h-auto rounded-md mb-2" 
+            className="max-w-xs h-auto rounded-md mb-2 p-2" 
             alt="Inflation"
           />
           <img 
             src={weakingingImage1990}
-            className="max-w-xs h-auto rounded-md" 
+            className="max-w-xs h-auto rounded-md p-2" 
             alt="Dollar Weakening in 1990"
           />
           </div>
