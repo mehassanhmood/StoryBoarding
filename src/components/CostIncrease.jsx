@@ -38,12 +38,12 @@ const CostIncrease = () => {
       <div className="flex-shrink-0 flex flex-col items-end ml-4">
         <img 
           src={housingPrice}  
-          className={`max-w-xs h-auto rounded-md mb-2 transition-opacity duration-700 ${fadeIn ? 'opacity-100' : 'opacity-0'}`} 
+          className={`max-w-72 h-auto rounded-md mb-2 transition-opacity duration-700 ${fadeIn ? 'opacity-100' : 'opacity-0'}`} 
           alt="Housing Price"
         />
         <img 
           src={Tution}
-          className={`max-w-xs h-auto rounded-md transition-opacity duration-700 ${fadeIn ? 'opacity-100' : 'opacity-0'}`} 
+          className={`max-w-72 h-auto rounded-md transition-opacity duration-700 ${fadeIn ? 'opacity-100' : 'opacity-0'}`} 
           alt="Tuition Fee"
         />
       </div>
