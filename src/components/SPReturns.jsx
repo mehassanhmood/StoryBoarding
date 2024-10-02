@@ -1,7 +1,7 @@
 // SPReturns.js
 import React from 'react';
 import SPY from "../../public/SPY.png";
-import investmentImage from "../../public/placeholder.png"; // Placeholder image
+import investmentImage from "../../public/investment_pic.png"; // Placeholder image
 
 const SPReturns = () => {
   return (
