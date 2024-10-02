@@ -12,7 +12,8 @@ function App() {
     // <div className="flex flex-col justify-center items-center min-h-screen bg-teal-300 p-4">
       <div>
       <HomePage />
-      <div className="mt-4 w-full max-w-3xl">
+      {/* <div className="mt-4 w-full max-w-3xl"> */}
+      <div>
         <Persona />
       </div>
       <div className="mt-4 w-full max-w-3xl">
