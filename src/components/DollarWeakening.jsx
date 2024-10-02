@@ -1,7 +1,7 @@
 import React from 'react';
 import weakingingImage from "../../public/dollar_weakening.png";
 import weakingingImage1990 from "../../public/dollarWeakening_1990.png";
-import inflation from "../../public/inflation_pic.png";
+import inflation from "../../public/inflation_pic.jpg";
 
 const DollarWeakening = () => {
   return (
