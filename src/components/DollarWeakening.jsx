@@ -24,12 +24,12 @@ const DollarWeakening = () => {
       <div className="overflow-hidden flex-shrink-0 flex flex-col items-end mx-4">
         <img 
           src={weakingingImage} 
-          className="w-full h-auto rounded-md mb-2" 
+          className="w-auto h-auto rounded-md mb-2" 
           alt="Dollar Weakening"
         />
           <img 
             src={weakingingImage1990}
-            className="w-full h-auto rounded-md p-2" 
+            className="w-auto h-auto rounded-md p-2" 
             alt="Dollar Weakening in 1990"
           />
       </div>
