@@ -32,6 +32,7 @@ const Persona = () => {
   return (
     <div className="p-4 border rounded-lg shadow-md bg-teal-100">
       <div className="mb-4">
+      <div className="p-4 border rounded-lg shadow-md bg-teal-100 text-center"> {/* Added text-center class here */}
         <h2 className="text-xl font-bold">
           <b>Shakira:</b> and her family of 3:
         </h2>
@@ -43,22 +44,24 @@ const Persona = () => {
         </p>
         <p className="mt-2">Their goals:</p>
         <ul className="list-disc list-inside mb-2">
-          <li className="flex items-center">
+          <li className="flex items-center justify-center"> {/* Added justify-center class */}
             <FaHome className="mr-2 text-teal-600" /> Home
           </li>
-          <li className="flex items-center">
+          <li className="flex items-center justify-center"> {/* Added justify-center class */}
             <FaAppleAlt className="mr-2 text-teal-600" /> Food
           </li>
-          <li className="flex items-center">
+          <li className="flex items-center justify-center"> {/* Added justify-center class */}
             <FaGraduationCap className="mr-2 text-teal-600" /> Education for their daughter, Lily
           </li>
         </ul>
         <p>The three basic needs of a human.</p>
+      </div>
+
         <img
           ref={imageRef}
           src={personaImage}
           alt="Shakira and her family"
-          className={`w-full h-auto rounded-lg mt-4 transition-opacity duration-500 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+          className={`w-full h-auto rounded-lg mt-4 transition-opacity duration-900 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
         />
       </div>
       <div className="placeholder-chart border-dashed border-2 border-gray-300 h-48 flex items-center justify-center mb-4">
