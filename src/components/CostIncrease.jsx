@@ -27,17 +27,19 @@ const CostIncrease = () => {
         <p className='text-xl'>
           Shakira had gone to school without her parents ever talking about student loans or inflation.
         </p>
+        <div className='flex max-w-xs p-4'>
+        <img 
+          src={ houseDream } 
+          className={`max-w-xs h-auto rounded-md mb-2 p-4`} 
+          alt="dream"
+        />
+        </div>
       </div>
       <div className="flex-shrink-0 flex flex-col items-end ml-4">
         <img 
           src={housingPrice}  
           className={`max-w-xs h-auto rounded-md mb-2 transition-opacity duration-700 ${fadeIn ? 'opacity-100' : 'opacity-0'}`} 
           alt="Housing Price"
-        />
-        <img 
-          src={ houseDream } // Placeholder image
-          className={`max-w-xs h-auto rounded-md mb-2`} 
-          alt="dream"
         />
         <img 
           src={Tution}
