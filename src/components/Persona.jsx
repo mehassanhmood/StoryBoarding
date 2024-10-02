@@ -54,7 +54,7 @@ const Persona = () => {
             <FaGraduationCap className="mr-2 text-teal-600" /> Education for their daughter, Lily
           </li>
         </ul>
-        <p>The three basic needs of a human.</p>
+        <p className='text-xl'>The three basic needs of a human.</p>
       </div>
 
         <img
