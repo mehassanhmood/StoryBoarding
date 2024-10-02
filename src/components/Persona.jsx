@@ -30,7 +30,7 @@ const Persona = () => {
   }, []);
 
   return (
-    <div className="p-4 border rounded-lg shadow-md bg-teal-100">
+    <div className="p-4 border rounded-lg shadow-lg shadow-teal-300 hover:shadow-teal-900 bg-teal-100">
       <div className="mb-4">
       <div className="p-4 border rounded-lg shadow-md bg-teal-100 text-center"> {/* Added text-center class here */}
         <h2 className="text-xl font-bold">

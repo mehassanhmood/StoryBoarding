@@ -12,8 +12,8 @@ function App() {
     
       <div className="py-6 px-2 border rounded-lg">
       <HomePage />
-      {/* <div className="mt-4 w-full max-w-3xl"> */}
-      <div>
+      
+      <div className="py-6 px-2 border rounded-lg">
         <Persona />
       </div>
       {/* <div className="mt-4 w-full max-w-3xl"> */}
