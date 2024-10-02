@@ -25,7 +25,7 @@ const Persona = () => {
         <img
           src={personaImage}
           alt="Shakira and her family"
-          className="w-full h-auto rounded-lg mt-4"
+          className="w-full h-auto rounded-lg mt-4 opacity-0 transition-opacity duration-500"
         />
       </div>
       <div className="placeholder-chart border-dashed border-2 border-gray-300 h-48 flex items-center justify-center mb-4">
