@@ -12,13 +12,6 @@ const DollarWeakening = () => {
           And then, there was the glaring reality, the same dollar that bought her parents groceries in the 1990s now barely covered half of what it used to. It struck her that what used to be $1 back then now felt like $3 today.
         </p>
         <p className='text-xl'>The dollar had depreciated over time, leaving her and Steve with less buying power, even as prices for basic goods continued to climb.</p>
-      </div>
-      <div className="flex-shrink-0 flex flex-col items-end ml-4">
-        <img 
-          src={weakingingImage} 
-          className="max-w-xs h-auto rounded-md mb-2" 
-          alt="Dollar Weakening"
-        />
         <img 
           src={inflation} 
           className="max-w-xs h-auto rounded-md mb-2" 
@@ -28,6 +21,13 @@ const DollarWeakening = () => {
           src={weakingingImage1990}
           className="max-w-xs h-auto rounded-md" 
           alt="Dollar Weakening in 1990"
+        />
+      </div>
+      <div className="flex-shrink-0 flex flex-col items-end ml-4">
+        <img 
+          src={weakingingImage} 
+          className="max-w-xs h-auto rounded-md mb-2" 
+          alt="Dollar Weakening"
         />
       </div>
     </div>
