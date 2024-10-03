@@ -3,7 +3,7 @@ import APersona from  "../../public/adaptedPersone.jpg";
 
 const AdaptedPersona = ({ name }) => {
     return (
-      <div className="p-4 border rounded-lg shadow-lg shadow-teal-100 hover:shadow-teal-700">
+      <div className="p-4 border rounded-lg shadow-lg shadow-indigo-100 hover:shadow-indigo-700 bg-indigo-700">
         <h2 className="text-xl font-bold">{name}</h2>
         <p className='text-xl'><b>Amjad</b>: The person who adapted. <br />
         People who adapted had one thing in common <em>financial literacy</em> . <br/>
