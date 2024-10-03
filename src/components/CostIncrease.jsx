@@ -15,7 +15,7 @@ const CostIncrease = () => {
   }, []);
 
   return (
-    <div className="p-4 border rounded-lg shadow-lg shadow-indigo-100 hover:shadow-indigo-700 bg-indigo-100 flex flex-col sm:flex-row">
+    <div className="p-4 border rounded-lg shadow-lg shadow-indigo-100 hover:shadow-indigo-700 bg-indigo-400 flex flex-col sm:flex-row">
       {/* Text Section */}
       <div className="flex-1 text-left p-4">
         <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold">Increasing Costs</h3>
