@@ -32,7 +32,7 @@ const Persona = () => {
   return (
     <div className="p-4 border rounded-lg shadow-lg hover:shadow-indigo-600 bg-indigo-300">
       <div className="mb-4">
-        <div className="p-4 border rounded-lg shadow-lg bg-indigo-400 text-center">
+        <div className="p-4 border rounded-lg shadow-lg bg-indigo-300 text-center">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold">
             <b>Shakira:</b> and her family of 3:
           </h2>
@@ -64,12 +64,14 @@ const Persona = () => {
           className={`w-full h-auto rounded-lg mt-4 transition-opacity duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
         />
       </div>
-      <div className="border-2 border-gray-300 h-48 sm:h-64 lg:h-72 flex flex-col sm:flex-row items-center justify-center mb-4">
-        <span className="text-lg sm:text-xl lg:text-2xl text-gray-900 p-2 text-center sm:text-left">
+
+      {/* Responsive section with image and text */}
+      <div className="border-2 border-gray-300 h-auto flex flex-col sm:flex-row items-center justify-center mb-4">
+        <span className="text-lg sm:text-xl lg:text-2xl text-gray-900 p-4 sm:w-1/2 text-center sm:text-left">
           In the back of her mind, Shakira couldn't shake the image of the curve she’d seen in the news recently—one showing how income inequality had widened over the years. The top 1% was growing wealthier, while families like hers were left struggling.
         </span>
         <img
-          className="max-w-full h-full object-cover sm:ml-4 mt-4 sm:mt-0"
+          className="w-full sm:w-1/2 h-auto object-cover mt-4 sm:mt-0"
           src={inequalitImage}
           alt="Income Inequality"
         />
@@ -79,4 +81,5 @@ const Persona = () => {
 };
 
 export default Persona;
+
 
