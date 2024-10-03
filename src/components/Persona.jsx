@@ -34,7 +34,7 @@ const Persona = () => {
       <div className="mb-4">
         <div className="p-4 border rounded-lg shadow-lg bg-indigo-300 text-center">
           <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold">
-            <b>Shakira:</b> and her family of 3:
+            <b>Shakira</b> and her family of 3:
           </h2>
           <p className="text-lg sm:text-xl lg:text-2xl mt-2">
             In a small, sunlit apartment on the outskirts of a bustling city,
