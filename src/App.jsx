@@ -10,30 +10,30 @@ import AdaptedPersona from "./components/AdaptedPersona";
 function App() {
   return (
     
-      <div className="py-6 px-2 border rounded-lg mx-24">
+    <div className="py-4 px-2 sm:py-6 sm:px-4 md:py-8 md:px-6 lg:py-10 lg:px-8 border rounded-lg">
       <HomePage />
 
-      <div className="py-6 px-4 border rounded-lg">
+      <div className="py-4 px-2 sm:py-6 sm:px-4 md:py-8 md:px-6 lg:py-10 lg:px-8 border rounded-lg">
         <Persona />
       </div>
       
-      <div className="py-6 px-4 border rounded-lg">
+      <div className="py-4 px-2 sm:py-6 sm:px-4 md:py-8 md:px-6 lg:py-10 lg:px-8 border rounded-lg">
         <DollarWeakening />
       </div>
       
-      <div className="py-6 px-4 border rounded-lg">
+      <div className="py-4 px-2 sm:py-6 sm:px-4 md:py-8 md:px-6 lg:py-10 lg:px-8 border rounded-lg">
         <CostIncrease />
       </div>
       
-      <div className="py-6 px-4 border rounded-lg">
+      <div className="py-4 px-2 sm:py-6 sm:px-4 md:py-8 md:px-6 lg:py-10 lg:px-8 border rounded-lg">
         <SuccessStrategies />
       </div>
       
-      <div className="py-6 px-4 border rounded-lg">
+      <div className="py-4 px-2 sm:py-6 sm:px-4 md:py-8 md:px-6 lg:py-10 lg:px-8 border rounded-lg">
         <SPReturns />
       </div>
       
-      <div className="py-6 px-4 border rounded-lg">
+      <div className="py-4 px-2 sm:py-6 sm:px-4 md:py-8 md:px-6 lg:py-10 lg:px-8 border rounded-lg">
         <AdaptedPersona />
       </div>
     </div>
