@@ -31,7 +31,7 @@ The story is structured around different personas, each representing a segment o
 ## Deployment
 
 You can view the project live on GitHub Pages:  
-[Storyboarding Inflation & Income Inequality](https://your-github-username.github.io/repository-name)
+[Storyboarding Inflation & Income Inequality](https://mehassanhmood.github.io/reactTest/)
 
 ---
 
