@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mehassanhmood.github.io/reatTest",
+  "homepage": "https://mehassanhmood.github.io/StoryBoarding",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
